@@ -23,12 +23,12 @@ console.log(play1,play2);
 let play1value;
 let play2value;
 entrybtn.addEventListener('click',function(){
-    modal.classList.add('hidde');
     overlay.classList.add('overla'); 
     play1value = play1.value;
     play2value= play2.value;
     document.querySelector('#name--0').textContent=play1value;
     document.querySelector('#name--1').textContent=play2value;
+    modal.classList.add('hidde');
 })
 
 
